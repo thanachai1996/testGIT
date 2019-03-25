@@ -17,10 +17,17 @@
 # print("sum velue = ",sum)
 # print("sums velue  = ", (n * (n+1) / 2 ))
 
-n = int(input("Enter Number = "))
-for i in range(n,0,-1):
-    print(i)
+# n = int(input("Enter Number = "))
+# for i in range(n,0,-1):
+#     print(i)
 
-print("+++++++++++++++++++++++")
-for j in range(n):
-    print(j)
+# print("+++++++++++++++++++++++")
+# for j in range(n):
+#     print(j)
+
+a =int(input("Enter your Number = "))
+b =int(input("Enter your Number = "))
+print("Sum % = ",a % b )
+print("Sum / = ",a / b )
+print("Sum // = ",a // b )
+print("Sum Exponent ** = ",a ** b )
