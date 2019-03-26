@@ -25,9 +25,24 @@
 # for j in range(n):
 #     print(j)
 
-a =int(input("Enter your Number = "))
-b =int(input("Enter your Number = "))
-print("Sum % = ",a % b )
-print("Sum / = ",a / b )
-print("Sum // = ",a // b )
-print("Sum Exponent ** = ",a ** b )
+# a =int(input("Enter your Number = "))
+# b =int(input("Enter your Number = "))
+# print("Sum % = ",a % b )
+# print("Sum / = ",a / b )
+# print("Sum // = ",a // b )
+# print("Sum Exponent ** = ",a ** b )
+
+print("PromptPay")
+amt = float(input("Enter  : "))
+fee = 0
+if amt > 100000:
+    fee = 10
+elif amt >30000:
+    free = 5
+elif amt > 5000:
+    fee = 2
+else:
+    fee = 0
+
+print(amt)
+print(fee)
