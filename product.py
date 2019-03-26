@@ -32,17 +32,43 @@
 # print("Sum // = ",a // b )
 # print("Sum Exponent ** = ",a ** b )
 
-print("PromptPay")
-amt = float(input("Enter  : "))
-fee = 0
-if amt > 100000:
-    fee = 10
-elif amt >30000:
-    free = 5
-elif amt > 5000:
-    fee = 2
-else:
-    fee = 0
+# def besic():
+#     print("PromptPay")
+#     amt = float(input("Enter  : "))
+#     fee = 0
+#     if amt > 100000:
+#         fee = 10
+#     elif amt >30000:
+#         fee = 5
+#     elif amt > 5000:
+#         fee = 2
+#     else:
+#         fee = 0
+#     print(amt)
+#     print(" fee : ",fee)
 
-print(amt)
-print(fee)
+
+# def come_x_pay_y():
+#     come_x = 4
+#     pay_y = 3
+#     pay_head = 146
+#     pax = int(input(" : "))
+#     total = (pax // come_x) * (pay_y * pay_head) + ((pax % come_x) * pay_head)
+#     print(total)
+
+#void function i c,Java
+
+# def celsius_to_fsh(celsius):
+#     return( celsius * 9 / 5) + 32
+
+# f = celsius_to_fsh(42)
+# print(f,"FSH")
+
+# print("1.celsius_to_fsh")
+# n = 1 #int(input("Number manu : "))
+# if n == 1:
+#     print(celsius_to_fsh())
+    
+# else:
+#     print("......")
+    
